@@ -1,0 +1,98 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif , sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a3a9c6;
+    
+}
+
+header {
+    background-color: #a8661ac0;
+
+    background-image: url('head_background.jpg');
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    
+}
+
+header h1{
+    font-size: 40px;
+}
+
+header p1{
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*textarea  
+{  
+   
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif , sans-serif;  
+   font-size: 14px;   
+}*/
+
+section {
+    
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #69769f;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgb(63, 85, 118);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b45050;
+}
+
+div.a {
+    line-height: 110%;
+  }
+
+  #background
+    {position:fixed;
+    inset:0;
+    z-index:-10;
+    height:100%;
+    width:100%;
+    object-fit:cover;
+ } 

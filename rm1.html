@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="rm1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <h2> RM 1 CAMPAIGN</h2>
+
+    <img src="images/International_Islamic_University_Malaysia_logo.svg.png"
+    width="200"
+    height="200">
+
+
+    
+</head>
+
+<body>
+    <script src="rm1.js"></script>
+    <div class="VerseAl-Quran">
+
+        <h3>Let your contributions be perpetual for the pleasure of Allah
+        swt</h3>
+    <h4>
+        مَّثَلُ ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ فِى سَبِيلِ ٱللَّهِ كَمَثَلِ حَبَّةٍ أَنۢبَتَتْ سَبْعَ سَنَابِلَ فِى كُلِّ سُنۢبُلَةٍۢ مِّا۟ئَةُ حَبَّةٍۢ ۗ وَٱللَّهُ يُضَـٰعِفُ لِمَن يَشَآءُ ۗ وَٱللَّهُ وَٰسِعٌ عَلِيم
+        <h4>The example of those who spend their wealth in the cause of Allah is that of a grain that sprouts into seven ears, each bearing one hundred grains. And Allah multiplies ˹the reward even more˺ to whoever He wills. For Allah is All-Bountiful, All-Knowing</h4>
+        <style>
+            /* Style for the container box */
+            .container {
+                width: 300px;
+                height: 1%;
+                border: 2px solid #333;
+                padding: 20px;
+                margin: 50px auto;
+                background-color: aliceblue;
+            }
+    
+            /* Additional styles for demonstration purposes */
+            body {
+                font-family: Arial, sans-serif;
+                text-align: center;
+                margin: 50px;
+            }
+            
+            .VerseAl-Quran{
+                background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+            }
+        </style></div>
+    
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    
+<title>Montly Salary Deduction Form</title>
+<style>
+                body {
+                    font-family: Arial, Helvetica, sans-serif, sans-serif;
+                    margin: 30px;
+                }
+        
+                label {
+                    display: block;
+                    margin-bottom: 10px;
+                }
+        
+                input[type="text"], input[type="number"] {
+                    width: 80%;
+                    padding: 8px;
+                    margin-bottom: 10px;
+                    box-sizing:content-box;
+                }
+        
+                input[type="radio"] {
+                    margin-right: 5px;
+                }
+        
+                button {
+                    padding: 10px;
+                    background-color: #af814c;
+                    color: white;
+                    border: none;
+                    cursor: pointer;
+                }
+        
+                button:hover {
+                    background-color: #45a049;
+                }
+        
+                #result {
+                    margin-top: 20px;
+                }
+        
+                .error {
+                    color: red;
+                }
+            </style>3
+             <h2>Monthly Salary Deduction Form</h2>
+        
+             <form id="deductionForm">
+                 <label for="employeeName">Employee Name:</label>
+                 <input type="text" id="employeeName" name="employeeName" required>
+         
+                 <label for="salary">Monthly Salary ($):</label>
+                 <input type="number" id="salary" name="salary" min="0" required>
+         
+                 <label for="deductionType">Deduction Type:</label>
+                 <input type="radio" id="healthInsurance" name="deductionType" value="Health Insurance" checked>
+                 <label for="healthInsurance">Health Insurance</label>
+         
+                 <input type="radio" id="pension" name="deductionType" value="Pension">
+                 <label for="pension">Pension</label>
+         
+                 <input type="radio" id="tax" name="deductionType" value="Tax">
+                 <label for="tax">Tax</label>
+         
+                 <button type="button" onclick="calculateDeduction()">Calculate Deduction</button>
+             </form>
+         
+             <div id="result"></div>
+         
+             <script>
+                 function calculateDeduction() {
+                     var employeeName = document.getElementById('employeeName').value;
+                     var salary = parseFloat(document.getElementById('salary').value);
+                     var deductionType = document.querySelector('input[name="deductionType"]:checked').value;
+         
+                     // Basic form validation
+                     if (!employeeName || isNaN(salary)) {
+                         alert("Please fill in all fields with valid information.");
+                         return;
+                     }
+         
+                     // Calculate deduction amount based on the selected type
+                     var deductionPercentage;
+                     switch (deductionType) {
+                         case 'Health Insurance':
+                             deductionPercentage = 5;
+                             break;
+                         case 'Pension':
+                             deductionPercentage = 8;
+                             break;
+                         case 'Tax':
+                             deductionPercentage = 10;
+                             break;
+                     }
+         
+                     var deductionAmount = (salary * deductionPercentage) / 100;
+         
+                     // Display result
+                     var resultMessage = "Employee: " + employeeName + "<br>";
+                     resultMessage += "Deduction Type: " + deductionType + "<br>";
+                     resultMessage += "Deduction Amount: $" + deductionAmount.toFixed(2);
+         
+                     
+ 
+                     document.getElementById('result').innerHTML = resultMessage;
+                 }
+                 
+             </script>
+              <style>
+                #interactiveBox {
+                    width: 100px;
+                    height: 100px;
+                    background-color: #3498db;
+                    margin: 50px;
+                    cursor: pointer;
+                }
+            </style>
+         <div id="interactiveBox"></div>
+     
+        
+        </head>
+        <body>
+        
+           
+            
+</body>
+</html>
